@@ -24,9 +24,9 @@ const LISTEN_TO_TCPDUMP = false;
 const ENABLE_MIXING = true;
 const MIXING_DELAY_MILLISECONDS = 1000;
 const RADDEC_FILTER_PARAMETERS = {
-    minRSSI: -90
+    minRSSI: -99
 };
-const INCLUDE_TIMESTAMP = true;
+const INCLUDE_TIMESTAMP = false;
 const INCLUDE_PACKETS = true;
 const ENABLE_WATCHDOG = true;
 const WATCHDOG_INTERVAL_MILLISECONDS = 5000;

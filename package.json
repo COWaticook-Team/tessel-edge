@@ -1,6 +1,6 @@
 {
   "name": "tessel-edge",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "homepage": "https://github.com/reelyactive/tessel-edge/",
   "author": {
     "name": "reelyActive",
@@ -21,12 +21,12 @@
     "Tessel"
   ],
   "dependencies": {
-    "@elastic/elasticsearch": "^7.0.0",
-    "barnowl": "^1.1.0",
+    "@elastic/elasticsearch": "7.9.0",
+    "barnowl": "^1.1.1",
     "barnowl-reel": ">=0.1.10",
     "barnowl-tcpdump": ">=0.1.5",
     "diract-digester": ">=0.1.0",
-    "raddec": ">=0.2.5",
+    "raddec": ">=0.2.7",
     "raddec-filter": ">=0.3.0"
   },
   "contributors": [
