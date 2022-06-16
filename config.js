@@ -24,6 +24,8 @@ const LISTEN_TO_TCPDUMP = false;
 const ENABLE_MIXING = true;
 const MIXING_DELAY_MILLISECONDS = 1000;
 const RADDEC_FILTER_PARAMETERS = {
+    acceptedReceiverIdTypes: [ Raddec.identifiers.TYPE_EUI64,
+                               Raddec.identifiers.TYPE_EUI48 ],
     minRSSI: -99
 };
 const INCLUDE_TIMESTAMP = false;
