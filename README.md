@@ -1,12 +1,16 @@
 tessel-edge
 ===========
 
-Edge software for the [reelyActive](https://www.reelyactive.com) __Owl-in-One__ based on the [Tessel 2](https://tessel.io/) platform.  Forwards [raddecs](https://github.com/reelyactive/raddec/) from a reel module (BLE) and/or from tcpdump (WiFi) to:
+Edge software for the [reelyActive Owl-in-One](https://www.reelyactive.com/products/gateways/#owl-in-one) based on the [Tessel 2](https://tessel.io/) platform.  Forwards [raddecs](https://github.com/reelyactive/raddec/) from a reel module (BLE) and/or from tcpdump (WiFi) to:
 - a remote server via UDP and/or webhook (HTTP POST), _and/or_
 - an Elasticsearch database, _and/or_
 - Google Analytics
 
-Consult the following tutorials for a step-by-step configuration guide:
+For complementary functionality, consider instead:
+- [tessel-monitor](https://github.com/reelyactive/tessel-monitor) to monitor Bluetooth Low Energy advertising traffic dynamics
+- [tessel-roam](https://github.com/reelyactive/tessel-roam) for mobile geolocated data capture
+
+Consult the following tutorials as step-by-step configuration guides:
 - [Configure an Owl-in-One](https://reelyactive.github.io/diy/oio-config/)
 - [Create a WLAN of Owl-in-Ones and a laptop](https://reelyactive.github.io/diy/oio-wlan/)
 
@@ -72,7 +76,7 @@ Prerequisites
 The __tessel-edge__ software expects the following:
 - a reel or reelceiver module connected via UART on Port A
 - maximum baud rate of Port A set to at least 230400
-- tcpdump installed
+- tcpdump installed (only if LISTEN_TO_TCPDUMP is true)
 
 
 License
