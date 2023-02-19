@@ -17,7 +17,7 @@ const BarnowlTcpdump = require('barnowl-tcpdump');
 const DirActDigester = require('diract-digester');
 const Raddec = require('raddec');
 const RaddecFilter = require('raddec-filter');
-const { Client } = require('@elastic/elasticsearch');
+//const { Client } = require('@elastic/elasticsearch'); // ElasticSearch is causing weird issues with some of the Owl-in-One
 const config = require('./config');
 
 // Load the configuration parameters
