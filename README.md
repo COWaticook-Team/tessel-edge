@@ -1,9 +1,12 @@
 tessel-edge
 ===========
 
+> **Warning**
+> This is a fork of tessel-edge without any ElasticSearch function
+
 Edge software for the [reelyActive Owl-in-One](https://www.reelyactive.com/products/gateways/#owl-in-one) based on the [Tessel 2](https://tessel.io/) platform.  Forwards [raddecs](https://github.com/reelyactive/raddec/) from a reel module (BLE) and/or from tcpdump (WiFi) to:
 - a remote server via UDP and/or webhook (HTTP POST), _and/or_
-- an Elasticsearch database, _and/or_
+- ~~an Elasticsearch database, _and/or_~~
 - Google Analytics
 
 For complementary functionality, consider instead:
@@ -33,7 +36,7 @@ All configuration parameters can be found in the file __config.js__.  Update onl
 | RADDEC_TARGETS            | Array of targets for raddec data (see below)    |
 | DIRACT_PROXIMITY_TARGETS  | Array of targets for diract-proximity data      |
 | DIRACT_DIGEST_TARGETS     | Array of targets for diract-digest data         |
-| ES_NODE                   | Path to Elasticsearch node                      |
+| ~~ES_NODE~~               | ~~Path to Elasticsearch node~~                  |
 | IS_UDP_BROADCAST          | Set to true if target is UDP broadcast (default: true) |
 | LISTEN_TO_REEL            | Enable listener on reel module (default: true)  |
 | LISTEN_TO_TCPDUMP         | Enable listener on tcpdump (default: false)     |
