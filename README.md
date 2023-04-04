@@ -66,19 +66,19 @@ Programmation
 
 La programmation du Tessel 2 nécessite le package [t2-cli](https://www.npmjs.com/package/t2-cli) qui peut être installé en suivant [ces instructions](http://tessel.github.io/t2-start/)
 
-With the Tessel 2 connected to the programming station via USB, from the root of this repository run:
+Avec le Tessel 2 connecté à la station de programmation via USB, à partir de la racine de ce répertoire, exécutez :
 
     t2 push index.js
 
-The code will be pushed to flash memory on the Tessel and will run every time it boots.
+Le code sera envoyé dans la mémoire flash du Tessel et s'exécutera à chaque démarrage.
 
 
-Prerequisites
+Prérequis
 -------------
 
-The __tessel-edge__ software expects the following:
-- a reel or reelceiver module connected via UART on Port A
-- maximum baud rate of Port A set to at least 230400
+Le logiciel __tessel-edge__ attend ce qui suit :
+- un module reel ou reelceiver connecté via UART sur le Port A
+- débit en bauds maximum du port A réglé sur au moins 230400
 - tcpdump installed (only if LISTEN_TO_TCPDUMP is true)
 
 
