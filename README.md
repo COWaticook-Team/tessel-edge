@@ -61,10 +61,10 @@ To broadcast UDP to all devices on the subnet, set the _host_ to the correspondi
 The DIRACT_PROXIMITY_TARGETS and DIRACT_DIGEST_TARGETS support the 'webhook' and 'elasticsearch' protocols, as described above.
 
 
-Programming
+Programmation
 -----------
 
-La programmation du Tessel 2 nécessite le package [t2-cli](https://www.npmjs.com/package/t2-cli) qui peut être installé en suivant [ces instructions](http://tessel.github.io/t2-start/).
+La programmation du Tessel 2 nécessite le package [t2-cli](https://www.npmjs.com/package/t2-cli) qui peut être installé en suivant [ces instructions](http://tessel.github.io/t2-start/)
 
 With the Tessel 2 connected to the programming station via USB, from the root of this repository run:
 
