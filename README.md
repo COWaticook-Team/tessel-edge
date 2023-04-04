@@ -21,7 +21,7 @@ Consult the following tutorials as step-by-step configuration guides:
 Installation
 ------------
 
-Clone this repository, browse to its root, then run:
+Cloner ce dépôt github, naviguer jusque a ça racine et ensuite exécuter la commande :
 
     npm install
 
@@ -29,7 +29,7 @@ Clone this repository, browse to its root, then run:
 Configuration
 -------------
 
-All configuration parameters can be found in the file __config.js__.  Update only this file, as required.
+Tous les paramètres de configuration se trouvent dans le fichier __config.js__. Mettez à jour uniquement ce fichier, si nécessaire.
 
 | Parameter                 | Description                                     | 
 |:--------------------------|:------------------------------------------------|
@@ -64,7 +64,7 @@ The DIRACT_PROXIMITY_TARGETS and DIRACT_DIGEST_TARGETS support the 'webhook' and
 Programming
 -----------
 
-Programming the Tessel 2 requires the [t2-cli](https://www.npmjs.com/package/t2-cli) package which can be installed by following [these instructions](http://tessel.github.io/t2-start/).
+La programmation du Tessel 2 nécessite le package [t2-cli](https://www.npmjs.com/package/t2-cli) qui peut être installé en suivant [ces instructions](http://tessel.github.io/ t2-début/).
 
 With the Tessel 2 connected to the programming station via USB, from the root of this repository run:
 
